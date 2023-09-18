@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class</title>
+  <style>
+    /* Classe 1: Tamanho médio e background azul */
+    .divAzul {
+      width: 150px;
+      height: 150px;
+      background-color: #3498db;
+      border: 2px solid #2980b9;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Classe 2: Tamanho pequeno e background verde */
+    .divVerde {
+      width: 100px;
+      height: 100px;
+      background-color: #2ecc71;
+      border: 2px solid #27ae60;
+      padding: 8px;
+      border-radius: 50%;
+      /* Isso tornará a div circular */
+    }
+
+    /* Classe 3: Tamanho grande e background laranja */
+    .divLaranja {
+      width: 200px;
+      height: 200px;
+      background-color: #e67e22;
+      border: 2px dashed #d35400;
+      padding: 12px;
+      transition: all 0.3s;
+      /* Efeito de transição */
+    }
+
+    /* Efeito hover para a divLaranja */
+    .divLaranja:hover {
+      transform: scale(1.1);
+      /* Aumenta o tamanho em 10% */
+      background-color: #ff6b20;
+    }
+
+    /* ID 1: Tamanho grande e background roxo */
+    #divRoxo {
+      width: 250px;
+      height: 250px;
+      background-color: #8e44ad;
+      border: 3px solid #6c3483;
+      padding: 15px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ID 2: Tamanho médio e background amarelo */
+    #divAmarelo {
+      width: 150px;
+      height: 150px;
+      background-color: #f39c12;
+      border: 2px dotted #b9770e;
+      padding: 10px;
+      border-radius: 20px;
+      /* Borda arredondada */
+    }
+
+    /* ID 3: Tamanho pequeno e background cinza */
+    #divCinza {
+      width: 100px;
+      height: 100px;
+      background-color: #7f8c8d;
+      border: 2px groove #2c3e50;
+      padding: 5px;
+      transition: all 0.4s;
+      /* Efeito de transição */
+    }
+
+    /* Efeito hover para o #divCinza */
+    #divCinza:hover {
+      transform: rotate(45deg);
+      /* Rotação de 45 graus */
+      background-color: #bdc3c7;
+    }
+  </style>
+</head>
+
+<body>
+  <p>Sites de Referência:</p>
+  <p><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML">Geral</a></p>
+  <p><a href="https://www.w3schools.com/html/html_classes.asp">Class</a></p>
+  <p><a href="https://www.w3schools.com/html/html_id.asp">ID</a></p>
+  <div class="divAzul">Class: Conteúdo da div azul</div>
+  <div class="divVerde">Class: Conteúdo da div verde</div>
+  <div class="divLaranja">Class: Passe o mouse sobre mim!</div>
+  <div class="divLaranja divAzul">Class: Passe o mouse sobre mim!</div>
+  <div id="divRoxo">Id: Conteúdo da div roxo</div>
+  <div id="divAmarelo">Id: Conteúdo da div amarelo</div>
+  <div id="divCinza">Id: Passe o mouse sobre mim para ver a rotação!</div>
+</body>
+
+</html>
