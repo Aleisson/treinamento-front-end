@@ -1,0 +1,125 @@
+.divLinha{
+  width: 100%;
+  height: 50px;
+  background-color: #FFFFFF;
+}
+.parent {
+  background-color: #50b3a2;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.parent .child {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+body{
+  background-color: #FFFFFF;
+  height: auto;
+  /*Atenção*/
+  box-sizing: border-box; /* Faz com que o padding e a border sejam incluídos nas dimensões definidas */
+  padding: 20px;
+}
+
+.minhaDiv div {
+  background-color: #e0e0e0; /* Cinza claro */
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.minhaDiv p {
+  color: #50b3a2; /* Uma cor turquesa */
+  font-size: 18px;
+}
+
+.minhaDiv > div {
+  background-color: #e0e0e0; /* Cinza claro */
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.nivel1 {
+  background-color: #e0e0e0; /* Cinza claro */
+  padding: 20px;
+  margin: 20px;
+}
+
+.nivel1 > .nivel2 {
+  background-color: #c0c0c0; /* Cinza um pouco mais escuro */
+  padding: 20px;
+  margin: 20px;
+}
+
+.nivel1 > .nivel2 > .nivel3 {
+  background-color: #a0a0a0; /* Cinza ainda mais escuro */
+  padding: 20px;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Espaçamento igual entre as colunas */
+  align-items: center; /* Alinha as colunas verticalmente ao centro */
+  height: 100px; /* Altura definida para visualizar o alinhamento vertical */
+  border: 1px solid #ddd;
+}
+
+.coluna {
+  width: 100px; /* Largura de cada coluna */
+  background-color: #e0e0e0; /* Cor de fundo para as colunas */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  padding: 10px; 
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+.containerTwo {
+  display: flex;
+  flex-direction: column; /* Altera a direção para coluna */
+  width: 200px; /* Largura fixa para o container */
+  gap: 10px; /* Espaço entre os itens */
+}
+
+.item {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #e0e0e0;
+}
+
+.grande {
+  height: 150px;
+}
+
+.medio {
+  height: 100px;
+}
+
+.pequeno {
+  height: 50px;
+}
+
+.extra-pequeno {
+  height: 25px;
+}
+
+.containerThree {
+  display: flex;
+  height: 200px; /* Altura fixa para ver o alinhamento vertical */
+  border: 1px solid #333;
+  justify-content: space-between; /* Espaça os itens igualmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  flex-wrap: wrap; /* Permite que os itens se envolvam para a próxima linha se necessário */
+}
+
+.item {
+  width: 100px; /* Largura fixa para os itens */
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #50b3a2;
+  background-color: #e0e0e0;
+}
