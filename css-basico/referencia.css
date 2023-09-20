@@ -24,6 +24,8 @@ body{
   padding: 20px;
 }
 
+
+
 .minhaDiv div {
   background-color: #e0e0e0; /* Cinza claro */
   padding: 20px;
@@ -36,8 +38,8 @@ body{
   font-size: 18px;
 }
 
-.minhaDiv > div {
-  background-color: #e0e0e0; /* Cinza claro */
+.minhaDiv > div > div {
+  background-color: yellow; /* Cinza claro */
   padding: 20px;
   border-radius: 5px;
   margin: 20px 0;
@@ -123,3 +125,4 @@ body{
   border: 1px solid #50b3a2;
   background-color: #e0e0e0;
 }
+
